@@ -42,8 +42,8 @@ function drawChart() {
     ['2007',  1030,      540]
   ]);*/
 
-  //var data = google.visualization.arrayToDataTable(funzionatore.parabola(2,0,0));
-  var data = google.visualization.arrayToDataTable(funzionatore.retta(0,4));
+  var data = google.visualization.arrayToDataTable(funzionatore.parabola(2,0,0));
+  //var data = google.visualization.arrayToDataTable(funzionatore.retta(0,4));
   // Set chart options
   var options = {title:'Grafico a funzione',
                  width:700,
