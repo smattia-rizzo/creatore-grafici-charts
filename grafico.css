@@ -1,0 +1,14 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+#campi{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-bottom: 0.5em;
+}
